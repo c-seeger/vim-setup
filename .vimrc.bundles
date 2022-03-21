@@ -41,6 +41,7 @@
     Plugin 'VundleVim/Vundle.vim'
     Plugin 'ycm-core/YouCompleteMe'
     Plugin 'pangloss/vim-javascript'
+    Plugin 'golang/lint'
     Plugin 'eslint/eslint'
     Plugin 'prettier/vim-prettier'
     Plugin 'dart-lang/dart-vim-plugin'
