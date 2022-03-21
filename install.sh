@@ -16,7 +16,7 @@
 
 ############################  SETUP PARAMETERS
 app_name='c-seeger-vim-setup'
-[ -z "$APP_PATH" ] && APP_PATH="$HOME/.c-seeger-vim"
+[ -z "$APP_PATH" ] && APP_PATH="$HOME/.c-seeger-vim-setup"
 [ -z "$REPO_URI" ] && REPO_URI='https://github.com/c-seeger/vim-setup.git'
 [ -z "$REPO_BRANCH" ] && REPO_BRANCH='main'
 debug_mode='0'
