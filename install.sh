@@ -163,9 +163,7 @@ setup_vundle() {
 
     vim \
         -u "$1" \
-        "+set nomore" \
-        "+BundleInstall!" \
-        "+BundleClean" \
+        "+PluginInstall" \
         "+qall"
 
     export SHELL="$system_shell"
@@ -195,7 +193,7 @@ setup_fork_mode "$fork_maintainer" \
                 "$APP_PATH" \
                 "$HOME"
 
-sync_repo       "$HOME/.vim/bundle/vundle" \
+sync_repo       "$HOME/.vim/bundle/Vundle.vim" \
                 "$VUNDLE_URI" \
                 "master" \
                 "vundle"
