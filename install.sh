@@ -172,6 +172,10 @@ setup_vundle() {
     debug
 }
 
+compile_ycm() {
+  python3 ~/.vim/bundle/YouCompleteMe/install.py --all
+}
+
 ############################ MAIN()
 variable_set "$HOME"
 program_must_exist "vim"
@@ -199,6 +203,8 @@ sync_repo       "$HOME/.vim/bundle/Vundle.vim" \
                 "vundle"
 
 setup_vundle    "$APP_PATH/.vimrc.bundles.default"
+
+compile_ycm     ""
 
 msg             "\nThanks for installing $app_name."
 msg             "© `date +%Y` Carsten Seeger"
