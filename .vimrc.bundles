@@ -42,6 +42,7 @@
     Plugin 'ycm-core/YouCompleteMe'
     Plugin 'pangloss/vim-javascript'
     Plugin 'eslint/eslint'
+    Plugin 'fatih/vim-go'
     Plugin 'prettier/vim-prettier'
     Plugin 'dart-lang/dart-vim-plugin'
     Plugin 'natebosch/vim-lsc'
