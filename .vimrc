@@ -74,7 +74,6 @@
   " ui {
 
     set showmode                    " Display the current mode
-    set cursorline                  " Highlight current line
     set backspace=indent,eol,start  " Backspace for dummies
     set linespace=0                 " No extra spaces between rows
     set number                      " Line numbers on
