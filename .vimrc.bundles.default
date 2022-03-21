@@ -1,0 +1,14 @@
+" default bundles {
+
+    " use before config if available {
+        if filereadable(expand("~/.vimrc.before"))
+            source ~/.vimrc.before
+        endif
+    " }
+
+    " use bundles config {
+        if filereadable(expand("~/.vimrc.bundles"))
+            source ~/.vimrc.bundles
+        endif
+    " }
+" }
