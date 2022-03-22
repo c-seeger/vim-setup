@@ -174,6 +174,8 @@ setup_vundle() {
 
 compile_ycm() {
   python3 ~/.vim/bundle/YouCompleteMe/install.py --all
+  success "build YouCompleteMe"
+  debug
 }
 
 ############################ MAIN()
