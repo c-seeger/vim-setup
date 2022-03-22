@@ -151,7 +151,7 @@
       let g:go_fmt_command = "goimports"
       let g:go_def_mode='gopls'
       let g:go_info_mode='gopls'
-      let g:go_metalinter_autosave_enabled = ['vet']
+      let g:go_metalinter_autosave_enabled = ['vet', 'golangci-lint', 'errcheck']
       let g:go_highlight_functions = 1
       let g:go_highlight_methods = 1
       let g:go_highlight_structs = 1
